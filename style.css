@@ -1,0 +1,47 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.hide {
+  display: none;
+}
+body {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  max-width: 100vw;
+  overflow-x: hidden;
+  flex-direction: column;
+}
+
+button {
+  border-radius: 10px;
+  border: none;
+  font-size: 3vw;
+  padding-inline: 10vw;
+  padding-block: 1vw;
+  background-color: white;
+  color: black;
+  margin-left: 1vw;
+}
+
+button:hover {
+  background-color: inherit;
+  color: white;
+}
+
+#oponents{
+  flex-direction: column;
+}
+
+div {
+ border: white 2px solid; 
+ margin-top: 2vh;
+}
